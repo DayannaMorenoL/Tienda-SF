@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style-iniciosesion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+    <body>
+        <header>
+            <div className="encabezado">
+                <nav>
+                    <a href="C:\Users\LAPTOP\Documents\Tienda SF\promociones.html"><button class="promociones" onclick="promociones()"><em><strong> Promociones </strong></em></button></a>
+                </nav>
+                <nav>
+                    <a href="C:\Users\LAPTOP\Documents\Tienda SF\index.html"><img class="logo" src="C:\Users\LAPTOP\Documents\Tienda SF\logo.png"></a>
+                </nav>
+                <input type=text class="texto-buscar"></input>
+                <button class="buscar"onclick="buscar()">Buscar</button>
+                <nav>
+                    <a href="C:\Users\LAPTOP\Documents\Tienda SF\iniciarsesion.html"><img class="usuario" src="C:\Users\LAPTOP\Documents\Tienda SF\usuario.png" height="30" width="30"></a>
+                </nav>
+                <img class="carrito" src="C:\Users\LAPTOP\Documents\Tienda SF\carrito.jpg" height="30" width="30">                
+            </div>
+        </header>    
+        <main>
+            <form>
+                <div class="caja">
+                    <section class="datos">
+                        <label for="correoelectronico">Correo electrónico *</label>
+                        <input type="email" id="correoelectronico" class="input-padron" required>
+                        <label for="contraseña">Contraseña *</label>
+                        <input type="password" id="contraseña" class="input-padron" required>
+                        <p class="olvido"><strong>¿Olvido su contraseña?</strong></p>
+                        <button class="btniniciarsesion" onclick="btniniciarsesion()"><strong>INICIAR SESIÓN</strong></button>
+                    </section>
+                    <img class="amigos" src="C:\Users\LAPTOP\Documents\Tienda SF\amigos.jpg">
+                </div>    
+            </form>     
+            <div>
+                <section>
+                    <p class="nocuenta"><strong>¿No tienes cuenta?</strong></p>
+                    <nav>
+                        <a href="C:\Users\LAPTOP\Documents\Tienda SF\registro.html"><button class="btnregistrar" onclick="btnregistrar()"><strong>¡REGISTRATE AHORA!</strong></button></a>
+                    </nav>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>

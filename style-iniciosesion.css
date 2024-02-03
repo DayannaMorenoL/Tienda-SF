@@ -1,0 +1,145 @@
+body {
+    padding: auto;
+    background: linear-gradient(#f78383, #faf4f4);
+}
+
+header {
+    background-color: #f78383;
+    padding: 120px 0;
+}
+
+.logo{
+    height: 180px;
+    left: 500px;
+    object-fit: cover;
+    position: absolute;
+    top:10px;
+    width: 300px;
+}
+
+.promociones { 
+    background-color: aquamarine;
+    border-radius: 34px;
+    height: 40px;
+    left: 110px;
+    position: absolute;
+    top:70px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.texto-buscar{
+    height: 23px;
+    left: 900px;
+    position: absolute;
+    top:20px;
+    width: 150px;
+}
+
+.buscar{
+    height: 30px;
+    left: 1050px;
+    position: absolute;
+    font-size: 12px;
+    top:20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.usuario{
+    height: 30px;
+    left: 1160px;
+    object-fit: cover;
+    position: absolute;
+    top:20px;
+    width: 30px;    
+    cursor: pointer;
+}
+
+.carrito{
+    height: 30px;
+    left: 1200px;
+    object-fit: cover;
+    position: absolute;
+    top:20px;
+    width: 30px;    
+    cursor: pointer;
+}
+
+.caja .datos{
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+    box-shadow: 0px 4px 4px black;
+    height: 366px;
+    left: 200px;
+    position: absolute;
+    top: 270px;
+    width: 416px;
+}
+
+form { 
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    font-family: "Inter-Bold", Helvetica;
+    margin: 10px 100px 25px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 70px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.olvido{
+    font-size: 20px;
+    text-shadow: 0px 4px 4px black;
+    font-family: "Inter-Bold", Helvetica;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.btniniciarsesion{
+    background-color: greenyellow;
+    border-radius: 34px;
+    height: 40px;
+    left: 120px;
+    position: absolute;
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.amigos {
+    height: 386px;
+    left: 900px;
+    position: absolute;
+    top:270px;
+    width: 336px;    
+}
+
+.nocuenta{
+    font-size: 20px;
+    text-shadow: 0px 4px 4px black;
+    font-family: "Inter-Bold", Helvetica;
+    margin-left: 320px;
+    margin-top: 400px;
+}
+
+.btnregistrar{
+    background-color: rgb(8, 201, 235);
+    border-radius: 34px;
+    height: 40px;
+    left: 320px;
+    position: absolute;
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}

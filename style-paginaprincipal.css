@@ -1,0 +1,172 @@
+body {
+  background: linear-gradient(#faf4f4,#f78383);
+}
+
+header {
+  background-color: #f78383;
+  padding: 120px 0;
+}
+
+main {
+  background: linear-gradient(#f78383, white);
+}
+
+.logo{
+  height: 180px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top:10px;
+  width: 300px;
+}
+
+.promociones { 
+  background-color: aquamarine;
+  border-radius: 34px;
+  height: 40px;
+  left: 110px;
+  position: absolute;
+  top:70px;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+.texto-buscar{
+  height: 23px;
+  left: 900px;
+  position: absolute;
+  top:20px;
+  width: 150px;
+}
+
+.buscar{
+  height: 30px;
+  left: 1050px;
+  position: absolute;
+  font-size: 12px;
+  top:20px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.usuario{
+  height: 30px;
+  left: 1160px;
+  object-fit: cover;
+  position: absolute;
+  top:20px;
+  width: 30px;    
+  cursor: pointer;
+}
+
+.carrito{
+  height: 30px;
+  left: 1200px;
+  object-fit: cover;
+  position: absolute;
+  top:20px;
+  width: 30px;    
+  cursor: pointer;
+}
+
+
+.eslogan {
+  text-align: center;
+  font-size: 35px;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.mujer p{
+  font-size: 2em;
+  margin: 0 200px 0;
+}
+
+.mujer p:hover{
+  color: rgb(156, 70, 70);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mujer img{ 
+  height: 300px;
+  left: 170px;
+  object-fit: cover;
+  position: absolute;
+  top:410px;
+  width: 260px;   
+} 
+
+.hombre p{
+  font-size: 2em;
+  margin: -50px 450px 0;
+}
+
+.hombre p:hover{
+  color: rgb(156, 70, 70);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hombre img{ 
+  height: 300px;
+  left: 400px;
+  object-fit: cover;
+  position: absolute;
+  top:410px;
+  width: 260px;   
+} 
+.niña p{
+  font-size: 2em;
+  margin: -55px 700px 0;
+}
+
+.niña p:hover{
+  color: rgb(156, 70, 70);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.niña img{ 
+  height: 300px;
+  left: 630px;
+  object-fit: cover;
+  position: absolute;
+  top:410px;
+  width: 260px;   
+} 
+
+.niño p{
+  font-size: 2em;
+  margin: -55px 950px 0;
+  text-decoration: none;
+}
+
+.niño p:hover{
+  color: rgb(156, 70, 70);
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.niño img{ 
+  height: 300px;
+  left: 870px;
+  object-fit: cover;
+  position: absolute;
+  top:410px;
+  width: 260px;   
+} 
+
+.catalogo {
+  height: 60px;
+  left: 550px;
+  line-height: normal;
+  position: absolute;
+  font-size: 22px;
+  top: 800px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 34px;
+  background: silver;
+}
